@@ -1,0 +1,41 @@
+.carousel {
+    width: 1920px;
+    height: auto;
+    overflow: hidden;
+}
+
+.carousel ul {
+    width: 200%; /* POUR QUE LES IMAGES DÉFILENT SANS BLANC */
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel li {
+    list-style: none;
+    float: left;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel a {
+    position: absolute;
+    top: 45%;
+}
+
+.carousel a i {
+
+    font-size: 3em;
+    color: darkred;
+}
+
+.carousel a.prev {
+    left: 5%;
+}
+
+.carousel a.next {
+    right: 5%;
+}

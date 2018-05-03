@@ -8,7 +8,7 @@ $(document).ready(function() {
                 $first.remove().css({ 'margin-left': '0px' });
                 $('.carousel ul li:last-child').after($first);
             });
-        }, 3000);
+        }, 3800);
     };
     slider();
 
